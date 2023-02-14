@@ -9,4 +9,4 @@ export const Greeting = () => {
             <h2>Really last one</h2>
         </>
     );
-}
+};

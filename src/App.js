@@ -5,6 +5,6 @@ const App = () => {
   return (
     <Greeting />
   );
-}
+};
 
 export default App;

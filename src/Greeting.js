@@ -9,7 +9,7 @@ export const Greeting = (props) => {
             <h3>{props.name}'s favorite number plus 10 is {props.favoriteNumber + 10}</h3>
             <h3>{props.name}'s favorite colors are: 
                 <ul>
-                    {props.favoriteColors && props.favoriteColors.map(color => <li>{color}</li>)}
+                    {props.favoriteColors && props.favoriteColors.map(color => <li key={color}>{color}</li>)}
                 </ul>
             </h3>
         </>

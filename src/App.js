@@ -5,7 +5,8 @@ const App = () => {
   const styles = {
     container: {
       padding: 20,
-      backgroundColor: new Date().getSeconds() % 2 == 0 ? "lightblue" : "pink"
+      backgroundColor: new Date().getSeconds() % 2 == 0 ? "lightblue" : "pink",
+      textTransform: 'uppercase'
     }
   }
 

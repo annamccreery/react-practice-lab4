@@ -14,7 +14,7 @@ const App = () => {
       <Greeting name="Anna" favoriteNumber={22} favoriteColors={["green", "blue", "red"]} />
       <Greeting name="Tamara" favoriteNumber={8} />
       <Greeting name="Tom" favoriteNumber={29} />
-      <Greeting name="Andy" favoriteNumber={32} />
+      <Greeting name="Andy" favoriteNumber={32} favoriteColors={["teal", "yellow", "brown"]} />
     </div>
   );
 }

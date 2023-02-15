@@ -4,10 +4,10 @@ import { Greeting } from './Greeting';
 const App = () => {
   return (
     <>
-      <Greeting name="Anna" />
-      <Greeting name="Tamara" />
-      <Greeting name="Tom" />
-      <Greeting name="Andy" />
+      <Greeting name="Anna" favoriteNumber={22} />
+      <Greeting name="Tamara" favoriteNumber={8} />
+      <Greeting name="Tom" favoriteNumber={29} />
+      <Greeting name="Andy" favoriteNumber={32} />
     </>
   );
 };
